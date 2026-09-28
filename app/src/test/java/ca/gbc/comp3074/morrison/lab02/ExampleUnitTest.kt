@@ -1,4 +1,4 @@
-package ca.gbc.comp3074.morrison.labex1
+package ca.gbc.comp3074.morrison.lab02
 
 import org.junit.Test
 
