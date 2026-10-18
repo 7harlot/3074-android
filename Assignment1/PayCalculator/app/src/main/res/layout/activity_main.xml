@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ScrollView so the form still fits on small screens or with the keyboard open. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- numberDecimal = numeric keyboard, digits and one decimal point only (no minus sign). -->
+        <EditText
+            android:id="@+id/hoursInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_hours"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/rateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_rate"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/taxRateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/hint_tax_rate"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_calculate" />
+
+        <!-- freezesText="true" keeps these results on screen when the phone rotates. -->
+        <TextView
+            android:id="@+id/payOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:freezesText="true"
+            android:text="@string/output_pay_empty"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/overtimeOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:freezesText="true"
+            android:text="@string/output_overtime_empty"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/totalPayOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:freezesText="true"
+            android:text="@string/output_total_pay_empty"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/taxOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:freezesText="true"
+            android:text="@string/output_tax_empty"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

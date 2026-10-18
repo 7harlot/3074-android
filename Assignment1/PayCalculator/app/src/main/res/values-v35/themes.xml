@@ -1,0 +1,7 @@
+<resources>
+    <!-- Android 15+ draws apps edge-to-edge by default, which can hide content under the
+         status bar. Opting out keeps the classic layout with the ActionBar on top. -->
+    <style name="Theme.PayCalculator" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>
