@@ -1,0 +1,4 @@
+<resources>
+    <!-- DarkActionBar = a theme WITH an ActionBar, which the About screen's back arrow lives in. -->
+    <style name="Theme.PayCalculator" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+</resources>

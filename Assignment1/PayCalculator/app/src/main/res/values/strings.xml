@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pay Calculator</string>
+
+    <!-- Main screen -->
+    <string name="hint_hours">Hours worked</string>
+    <string name="hint_rate">Hourly rate ($)</string>
+    <string name="hint_tax_rate">Tax rate (%), e.g. 13</string>
+    <string name="button_calculate">Calculate</string>
+
+    <string name="label_pay">Pay: %1$s</string>
+    <string name="label_overtime">Overtime pay: %1$s</string>
+    <string name="label_total_pay">Total pay: %1$s</string>
+    <string name="label_tax">Tax: %1$s</string>
+
+    <string name="output_pay_empty">Pay: –</string>
+    <string name="output_overtime_empty">Overtime pay: –</string>
+    <string name="output_total_pay_empty">Total pay: –</string>
+    <string name="output_tax_empty">Tax: –</string>
+
+    <string name="error_required">Required</string>
+    <string name="error_invalid_number">Enter a number of 0 or more</string>
+    <string name="error_tax_over_100">Tax rate can\'t be over 100%</string>
+
+    <!-- Menu -->
+    <string name="menu_about">About</string>
+
+    <!-- About screen: TODO put your full name exactly as in your college record, and your student ID -->
+    <string name="about_title">About</string>
+    <string name="about_name">Ben Morrison</string>
+    <string name="about_student_id">Student ID: 101572409</string>
+</resources>
