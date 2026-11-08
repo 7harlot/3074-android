@@ -1,0 +1,6 @@
+# Files to ignore
+
+# Directories
+
+.idea/caches/
+/LabEx5/
