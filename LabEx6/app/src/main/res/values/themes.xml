@@ -1,0 +1,5 @@
+<resources>
+    <!-- Compose draws its own UI (Scaffold, MaterialTheme), so the window theme only needs
+         to be a plain one with no ActionBar. Built into Android, so no extra library. -->
+    <style name="Theme.SensorLab" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

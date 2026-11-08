@@ -1,0 +1,111 @@
+<mxfile host="Electron">
+  <diagram name="Navigation" id="bEKcdYo12Nb6y9m5sMLW">
+    <mxGraphModel dx="1414" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-1" parent="1" style="text;html=1;align=center;" value="&lt;b style=&#39;font-size:18px&#39;&gt;Campus Study Group Finder: Navigation Structure&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="600" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-2" parent="1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f7f7f7;strokeColor=#999999;verticalAlign=top;align=left;spacingLeft=12;spacingTop=4;fontStyle=1;fontColor=#555555;" value="BOTTOM NAVIGATION BAR (main screens: switch freely between tabs; app opens on Session Feed)" vertex="1">
+          <mxGeometry height="138" width="1100" x="50" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Splash&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;checks sign-in status&lt;/font&gt;" vertex="1">
+          <mxGeometry height="56" width="200" x="500" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Login / Sign Up&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;college email + password&lt;/font&gt;" vertex="1">
+          <mxGeometry height="56" width="210" x="110" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Session Feed (Home)&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;search, date filter, session list&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="230" x="110" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;My Sessions&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;Joined | Created tabs&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="230" x="485" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Profile&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;account info and options&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="230" x="860" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Create / Edit Session&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;form + validation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="200" x="40" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Session Details&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;join/leave, share, edit*, delete*&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="220" x="340" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-10" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#777777;dashed=1;fontColor=#333333;" value="&lt;b&gt;Email app&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;(Android share sheet)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="200" x="640" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-11" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#777777;dashed=1;fontColor=#333333;" value="&lt;b&gt;Browser / meeting app&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;(online sessions)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="200" x="640" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;About&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;team members&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="130" x="880" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2b5c8a;strokeWidth=2;dashed=1;fontColor=#1d3a57;" value="&lt;b&gt;Edit Profile&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;(FR-16)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="140" x="1030" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eef4fb;strokeColor=#2b5c8a;strokeWidth=2;fontColor=#1d3a57;" value="&lt;b&gt;Full-Screen Map&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;session marker + my location&lt;/font&gt;" vertex="1">
+          <mxGeometry height="64" width="220" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-15" parent="1" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#777777;dashed=1;fontColor=#333333;" value="&lt;b&gt;Google Maps app&lt;/b&gt;&lt;br&gt;&lt;font style=&#39;font-size:11px&#39; color=&#39;#444444&#39;&gt;(turn-by-turn directions)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="46" width="200" x="350" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-16" parent="1" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fillColor=#fafafa;strokeColor=#cccccc;fontSize=12;" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Solid blue box: app screen&lt;br&gt;Dashed blue box: screen implied by FR-16 (Profile&#39;s Edit Profile button)&lt;br&gt;Dashed grey pill: external app opened by Intent&lt;br&gt;* Creator only. Delete asks to confirm, then returns to the previous list.&lt;br&gt;System Back returns to the previous screen from any non-tab screen.&lt;br&gt;Join is disabled when a session is full (FR-09)." vertex="1">
+          <mxGeometry height="170" width="490" x="680" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-17" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-4" value="not signed in">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-18" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-2" value="signed in">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-19" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-5" value="success">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-20" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.78;exitY=0;entryX=1;entryY=0.5;" target="6Nf-jh5Q5VhSSi-vYqMu-4" value="Sign Out (clears back stack)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-21" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-8" value="&quot;+ Create&quot;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-22" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.75;exitY=1;entryX=0.25;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-9" value="tap session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-23" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.75;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-9" value="tap session">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-24" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0;exitY=0.3;entryX=1;entryY=0.3;" target="6Nf-jh5Q5VhSSi-vYqMu-8" value="Edit*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-25" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.7;entryX=0;entryY=0.7;" target="6Nf-jh5Q5VhSSi-vYqMu-9" value="Save">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-26" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" target="6Nf-jh5Q5VhSSi-vYqMu-10" value="Share">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-27" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" target="6Nf-jh5Q5VhSSi-vYqMu-11" value="Open Meeting">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-28" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-14" value="View Map / tap preview">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-29" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-15" value="Get Directions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-30" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.37;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-12" value="About">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6Nf-jh5Q5VhSSi-vYqMu-31" edge="1" parent="1" source="6Nf-jh5Q5VhSSi-vYqMu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#333333;fontStyle=2;fontSize=11;labelBackgroundColor=#ffffff;exitX=0.87;exitY=1;entryX=0.5;entryY=0;" target="6Nf-jh5Q5VhSSi-vYqMu-13" value="Edit Profile">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
